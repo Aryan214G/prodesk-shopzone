@@ -27,9 +27,19 @@ const Shop = () => {
       {
         products.map(product => (
 
-          <p key={product.id}>
-              {product.title}
-          </p>
+          <div key={product.id}>
+
+              <img
+              src = {product.thumbnail}
+              alt = {product.title}
+              width="150"
+              />
+
+              <h3>{product.title}</h3>
+
+              <p> ${product.price} </p>
+
+          </div>
         ))
       }
 
