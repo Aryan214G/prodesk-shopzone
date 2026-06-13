@@ -8,7 +8,9 @@ import {
 import Home from "./pages/Home";
 import  Shop from "./pages/Shop";
 import Contact from "./pages/Contact";
+import Product from './pages/Product';
 import Navbar from './components/Navbar';
+
 
 
 const App = () => {
@@ -31,6 +33,11 @@ const App = () => {
         <Route
         path="/contact"
         element={<Contact />}
+        />
+
+        <Route
+        path="/product/:id"
+        element={<Product />}
         />
 
       </Routes>

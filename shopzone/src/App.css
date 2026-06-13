@@ -22,3 +22,8 @@ nav a:hover {
 
     text-decoration: underline;
 }
+
+.product-card {
+
+    background-color:rgb(223, 188, 158);
+}

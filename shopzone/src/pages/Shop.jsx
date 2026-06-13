@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { Link } from "react-router-dom";
 
 const Shop = () => {
 
@@ -27,7 +28,14 @@ const Shop = () => {
       {
         products.map(product => (
 
-          <div key={product.id}>
+          <Link
+           key={product.id}
+           to = {`/product/${product.id}`}
+           >
+            
+            <div
+            className='product-card'
+            >
 
               <img
               src = {product.thumbnail}
@@ -39,7 +47,9 @@ const Shop = () => {
 
               <p> ${product.price} </p>
 
-          </div>
+              </div>
+              
+          </Link>
         ))
       }
 
