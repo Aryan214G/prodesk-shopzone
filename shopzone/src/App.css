@@ -1,3 +1,7 @@
+* {
+    font-family: 'Georgia', 'Garamond', serif;
+}
+
 .page {
 
     max-width: 1200px;
@@ -46,7 +50,7 @@ nav a:hover {
 
     padding: 16px;
 
-    background-color: white;
+    background-color: #faf5f0;
 
     text-decoration: none;
 

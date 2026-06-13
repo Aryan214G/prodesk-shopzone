@@ -5,7 +5,7 @@ function Contact() {
         <div className="page">
             <h1>Contact Us</h1>
 
-            <form>
+            <form className="contact-form">
 
                 <input
                     type="text"

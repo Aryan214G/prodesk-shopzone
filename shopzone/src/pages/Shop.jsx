@@ -25,34 +25,35 @@ const Shop = () => {
     <div className="page">
       <h1>Shop</h1>
 
-      {
-        products.map(product => (
+      <div className="product-grid">
+        {
+          products.map(product => (
 
-          <Link
-           key={product.id}
-           to = {`/product/${product.id}`}
-           >
-            
-            <div
-            className='product-card'
-            >
+            <Link
+             key={product.id}
+             to = {`/product/${product.id}`}
+             >
 
-              <img
-              src = {product.thumbnail}
-              alt = {product.title}
-              width="150"
-              />
+              <div
+              className='product-card'
+              >
 
-              <h3>{product.title}</h3>
+                <img
+                src = {product.thumbnail}
+                alt = {product.title}
+                width="150"
+                />
 
-              <p> ${product.price} </p>
+                <h3>{product.title}</h3>
 
-              </div>
+                <p className="product-price">${product.price}</p>
 
-          </Link>
-        ))
-      }
+                </div>
 
+            </Link>
+          ))
+        }
+      </div>
 
     </div>
   )

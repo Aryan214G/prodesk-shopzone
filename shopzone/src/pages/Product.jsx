@@ -32,7 +32,7 @@ if (!product) {
 
   return (
 
-    <div className="page">
+    <div className="product-details">
 
         <img
             src={product.thumbnail}
@@ -43,9 +43,9 @@ if (!product) {
             {product.title}
         </h1>
 
-        <h2>
-            ${product.price}  
-        </h2>
+        <p className="product-price">
+            ${product.price}
+        </p>
 
         <p>
             {product.description}
