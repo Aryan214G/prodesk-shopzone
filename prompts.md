@@ -47,3 +47,7 @@ ReactDOM.createRoot(
 4) Home doesnt show up when I load the page.
 
 5) How do I build the navbar with link?
+
+6) explain the syntax of useEffect.
+
+7) How does an empty array in useState indicate that the function is only supposed to run once?
