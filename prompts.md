@@ -45,3 +45,5 @@ ReactDOM.createRoot(
 );```
 
 4) Home doesnt show up when I load the page.
+
+5) How do I build the navbar with link?
