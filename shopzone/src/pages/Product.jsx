@@ -32,7 +32,7 @@ if (!product) {
 
   return (
 
-    <div>
+    <div className="page">
 
         <img
             src={product.thumbnail}

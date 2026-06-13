@@ -22,7 +22,7 @@ const Shop = () => {
   }
 
   return (
-    <div>
+    <div className="page">
       <h1>Shop</h1>
 
       {
@@ -48,7 +48,7 @@ const Shop = () => {
               <p> ${product.price} </p>
 
               </div>
-              
+
           </Link>
         ))
       }
