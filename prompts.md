@@ -51,3 +51,5 @@ ReactDOM.createRoot(
 6) explain the syntax of useEffect.
 
 7) How does an empty array in useState indicate that the function is only supposed to run once?
+
+8) do we have to fetch again in product page? cant we pass the object from shop to product page?
